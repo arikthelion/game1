@@ -1,0 +1,23 @@
+.shape {
+    width: auto;
+    position:absolute;
+}
+
+#screen {
+    flex-grow:1;
+    position:relative;
+    overflow: hidden;
+    margin-right: 2.45%; 
+    margin-left: 2.69%;
+    border: 5px solid black ;
+    border-top: 0px;
+}
+
+body {
+    margin:0;
+    padding:0;    
+    background-image: url('img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+}
