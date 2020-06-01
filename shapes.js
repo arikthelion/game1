@@ -1,6 +1,6 @@
 class shapes {
 
-    static drawShape(type, width, height) {
+    drawShape(type, width, height) {
 
         let svg = [`<svg class="shape shape_${type}" style="visibility:hidden;" width=${width} height="${height}">`];
         switch (type) {
